@@ -109,6 +109,16 @@ ul {
     align-items: center;
 }
 
+/* 🚩 로고 링크 스타일 */
+.logo-link {
+    text-decoration: none; 
+    color: var(--primary-color); 
+}
+
+.logo-link:hover {
+    color: var(--primary-color); 
+}
+
 .logo {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.8em;
@@ -174,6 +184,7 @@ ul {
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid var(--light-gray);
+    cursor: pointer; /* 🚩 카드 전체에 클릭 가능 시각적 피드백 제공 */
 }
 
 .pet-card:hover {
